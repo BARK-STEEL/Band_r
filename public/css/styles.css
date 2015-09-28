@@ -7,6 +7,8 @@ body {
 }
 #signUpSubmit {
   display: none;
+  color: white;
+  background-color: tomato;
 }
 @font-face {
   font-family: 'Capture';
@@ -28,4 +30,10 @@ body {
 }
 li {
   list-style-type: none;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: red;
 }
