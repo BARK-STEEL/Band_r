@@ -1,0 +1,24 @@
+<h3>Please enter your name and email below</h3>
+<form class="create-fan" action="/api/fans" method="post">
+  <input type="text" id="first_name" name="fan[first_name]" placeholder="...First Name" >
+  <input type="text" id="last_name" name="fan[last_name]" placeholder="...Last Name" >
+  <input type="text" id="email" name="fan[email]" placeholder="...Email Address" >
+  <input id="signUpSubmit" type="submit">
+</form>
+
+<h3 id="fans">Fans:</h3>
+<ul id="fans-list">
+</ul>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.serializeJSON/2.6.1/jquery.serializejson.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.2/backbone.js"></script>
+
+<script src="/js/models/fan.js"></script>
+<script src="/js/collections/fanCollection.js"></script>
+<script src="/js/views/fanView.js"></script>
+<script src="/js/views/fanListView.js"></script>
+
+<script src="/js/app.js"></script>
